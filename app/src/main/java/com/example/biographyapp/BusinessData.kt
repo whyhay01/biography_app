@@ -1,7 +1,7 @@
 package com.example.biographyapp
 
 object BusinessData {
-    val Biography = listOf(
+    val BusinessItem = listOf(
             BusinessModel(name ="Aliko Dangote",
             R.drawable.aliko,
             biography = "Aliko Dangote is an ethnic Hausa Muslim from Kano, Kano State, was born on 10 April 1957 " +
