@@ -19,29 +19,6 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-            <!--androidx.cardview.widget.CardView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                app:cardCornerRadius="200dp"
-                app:cardBackgroundColor="@color/white">
-
-                <androidx.cardview.widget.CardView
-                    android:layout_width="95dp"
-                    android:layout_height="95dp"
-                    app:cardCornerRadius="200dp"
-                    android:layout_gravity="center">
-
-                    <ImageView
-                        android:id="@+id/biz_image"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/adenuga"
-                        android:scaleType="centerCrop"/>
-
-                </androidx.cardview.widget.CardView>
-
-            </androidx.cardview.widget.CardView-->
-
             <ImageView
                 android:id="@+id/biz_image"
                 android:layout_width="95dp"
