@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="display_margin">10dp</dimen>
+    <dimen name="image_display">95dp</dimen>
+    <dimen name="text_heading">25sp</dimen>
+    <dimen name="text_size">16sp</dimen>
+</resources>

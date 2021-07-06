@@ -8,27 +8,29 @@ import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
 
-class SportAdapter(context: Context,sportCategory: List<SportModel>) :
-    ArrayAdapter<SportModel>(context,0,sportCategory) {
+class PoliticsAdapter(context: Context,politicsCategory: List<PoliticsModel>):
+    ArrayAdapter<PoliticsModel>(context,0,politicsCategory){
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         var view = convertView
-        var sportItem = getItem(position)
+        var politicsItems = getItem(position)
         if (view == null){
             view = LayoutInflater.from(parent.context)
-                .inflate(R.layout.display_sport,parent,false)
+                .inflate(R.layout.politics_display,parent,false)
         }
 
-        val profilePicture = view?.findViewById<ImageView>(R.id.sport_image)
+        var profilePicture = view?.findViewById<ImageView>(R.id.politics_image)
         val name = view?.findViewById<TextView>(R.id.politics_name)
         val detail = view?.findViewById<TextView>(R.id.politics_description)
 
-        sportItem?.picture?.let {
-            profilePicture?.setImageResource(sportItem.picture)
-        }
+        name?.text = politicsItems?.name
+        detail?.text = politicsItems?.description
 
-        name?.text = sportItem?.name
-        detail?.text = sportItem?.biography
+        if (politicsItems != null) {
+            politicsItems?.image.let {
+                profilePicture?.setImageResource(politicsItems.image)
+            }
+        }
 
         return view!!
     }
