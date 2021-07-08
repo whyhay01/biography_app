@@ -4,4 +4,5 @@
     <dimen name="image_display">95dp</dimen>
     <dimen name="text_heading">25sp</dimen>
     <dimen name="text_size">16sp</dimen>
+    <dimen name="text_size_body">18sp</dimen>
 </resources>
