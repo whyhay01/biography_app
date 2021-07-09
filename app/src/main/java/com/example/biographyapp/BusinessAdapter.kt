@@ -36,10 +36,10 @@ class BusinessAdapter(context: Context,businessCategory:List<BusinessModel>)
     //Displaying on the DisplayActivity
 
         view?.setOnClickListener {
-            var intent = Intent(parent.context, BusinessDisplayActivity::class.java)
-            intent.putExtra(BusinessDisplayActivity.NAME_EXTRA, businessItem?.name)
-            intent.putExtra(BusinessDisplayActivity.DETAIL_EXTRA, businessItem?.biography)
-            intent.putExtra(BusinessDisplayActivity.IMAGE_EXTRA, businessItem?.image)
+            var intent = Intent(parent.context, BusinessDetailActivity::class.java)
+            intent.putExtra(BusinessDetailActivity.NAME_EXTRA, businessItem?.name)
+            intent.putExtra(BusinessDetailActivity.DETAIL_EXTRA, businessItem?.biography)
+            intent.putExtra(BusinessDetailActivity.IMAGE_EXTRA, businessItem?.image)
             parent.context.startActivity(intent)
         }
 

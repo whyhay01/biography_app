@@ -1,6 +1,7 @@
 package com.example.biographyapp
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +12,8 @@ class CategoryAdapter(context: Context,categories: List<Category>): ArrayAdapter
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
         var view = convertView
-        val category = getItem(position)
+        var category = getItem(position)
+        var itemPosition: Int = getItemViewType(position)
         if (view == null) {
             view = LayoutInflater.from(parent.context)
                 .inflate(R.layout.display_category, parent, false)
@@ -24,6 +26,18 @@ class CategoryAdapter(context: Context,categories: List<Category>): ArrayAdapter
         tvDetails?.text = category?.details
 
 
+//        view?.setOnClickListener {
+//               if (itemPosition ==0){
+//                   var intent = Intent(parent.context, BusinessActivity::class.java)
+//                   parent.context.startActivity(intent)
+//               }else if (itemPosition == 1){
+//                   var intent = Intent(parent.context, SportActivity::class.java)
+//                   parent.context.startActivity(intent)
+//               }else if (itemPosition == 2){
+//                   var intent = Intent(parent.context, PoliticsActivity::class.java)
+//                   parent.context.startActivity(intent)
+//               }
+//        }
 
         return view!!
     }

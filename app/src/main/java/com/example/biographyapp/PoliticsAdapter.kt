@@ -1,6 +1,7 @@
 package com.example.biographyapp
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,6 +30,14 @@ class PoliticsAdapter(context: Context,politicsCategory: List<PoliticsModel>):
         if (politicsItems != null) {
             politicsItems?.image.let {
                 profilePicture?.setImageResource(politicsItems.image)
+            }
+
+            view?.setOnClickListener {
+                var intent =  Intent(parent.context, PoliticsDetailActivity::class.java)
+                intent.putExtra(BusinessDetailActivity.NAME_EXTRA, politicsItems.name)
+                intent.putExtra(BusinessDetailActivity.DETAIL_EXTRA, politicsItems.description)
+                intent.putExtra(BusinessDetailActivity.IMAGE_EXTRA,politicsItems.image)
+                parent.context.startActivity(intent)
             }
         }
 

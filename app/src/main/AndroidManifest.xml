@@ -9,20 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BiographyApp">
-        <activity android:name=".BusinessDisplayActivity"></activity>
-        <activity android:name=".TechActivity"></activity>
-        <activity android:name=".PoliticsActivity"></activity>
+        <activity android:name=".VisionariesActivity"></activity>
+        <activity android:name=".TechDetailActivity" />
+        <activity android:name=".PoliticsDetailActivity" />
+        <activity android:name=".SportDetailActivity" />
+        <activity android:name=".BusinessDetailActivity" />
+        <activity android:name=".TechActivity" />
+        <activity android:name=".PoliticsActivity" />
         <activity android:name=".SportActivity" />
-        <activity android:name=".BusinessActivity">
-
+        <activity android:name=".BusinessActivity" />
+        <activity android:name=".CategoryActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-        </activity>
-        <activity android:name=".CategoryActivity">
         </activity>
         <activity android:name=".MainActivity" />
 

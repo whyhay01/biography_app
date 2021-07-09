@@ -1,6 +1,7 @@
 package com.example.biographyapp
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -29,6 +30,14 @@ class SportAdapter(context: Context,sportCategory: List<SportModel>) :
 
         name?.text = sportItem?.name
         detail?.text = sportItem?.biography
+
+        view?.setOnClickListener {
+            var  intent = Intent(parent.context, SportDetailActivity::class.java)
+            intent.putExtra(BusinessDetailActivity.NAME_EXTRA,sportItem?.name)
+            intent.putExtra(BusinessDetailActivity.DETAIL_EXTRA,sportItem?.biography)
+            intent.putExtra(BusinessDetailActivity.IMAGE_EXTRA,sportItem?.picture)
+            context.startActivity(intent)
+        }
 
         return view!!
     }

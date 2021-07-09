@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/display_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PoliticsDetailActivity">
+
+    <ImageView
+        android:id="@+id/politics_display_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/johnson" />
+
+    <TextView
+        android:id="@+id/politics_display_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/display_margin"
+        android:layout_marginEnd="@dimen/display_margin"
+        android:layout_marginTop="8dp"
+        android:text="Nicky Oppenheimer"
+        android:fontFamily="@font/kavoon"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_heading"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/politics_display_image" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Biography"
+        android:layout_marginStart="@dimen/display_margin"
+        android:layout_marginEnd="@dimen/display_margin"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_heading"
+        android:fontFamily="@font/kavoon"
+        app:layout_constraintEnd_toEndOf="@+id/politics_display_name"
+        app:layout_constraintStart_toStartOf="@+id/politics_display_name"
+        app:layout_constraintTop_toBottomOf="@+id/politics_display_name" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/display_margin"
+        android:layout_marginEnd="@dimen/display_margin"
+        android:layout_marginBottom="@dimen/display_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/politics_display_bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="this is where the biography of every person will display"
+                android:textSize="@dimen/text_size_body"
+                android:textColor="@color/text_color"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

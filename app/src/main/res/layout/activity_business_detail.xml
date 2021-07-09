@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/display_color"
-    tools:context=".BusinessDisplayActivity">
+    tools:context=".BusinessDetailActivity">
 
     <ImageView
         android:id="@+id/biz_display_image"

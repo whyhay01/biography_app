@@ -1,6 +1,7 @@
 package com.example.biographyapp
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -30,6 +31,15 @@ class TechAdapter(context: Context, techCategory: List<TechModel>)
             profilePicture?.setImageResource(techItems.image)
         }
 
+        view?.setOnClickListener {
+            var intent = Intent(parent.context, TechDetailActivity::class.java,)
+            intent.putExtra(BusinessDetailActivity.NAME_EXTRA, techItems?.name)
+            intent.putExtra(BusinessDetailActivity.DETAIL_EXTRA, techItems?.description)
+            intent.putExtra(BusinessDetailActivity.IMAGE_EXTRA, techItems?.image)
+            parent.context.startActivity(intent)
+        }
+
         return view!!
     }
+
 }

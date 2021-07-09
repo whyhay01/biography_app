@@ -2,15 +2,15 @@ package com.example.biographyapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.biographyapp.databinding.ActivityBusinessDisplayBinding
+import com.example.biographyapp.databinding.ActivityBusinessDetailBinding
 
-class BusinessDisplayActivity : AppCompatActivity() {
-    var binding: ActivityBusinessDisplayBinding? = null
+class BusinessDetailActivity : AppCompatActivity() {
+    var binding: ActivityBusinessDetailBinding? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_business_display)
-        binding = ActivityBusinessDisplayBinding.inflate(layoutInflater)
+        setContentView(R.layout.activity_business_detail)
+        binding = ActivityBusinessDetailBinding.inflate(layoutInflater)
         setContentView(binding?.root)
 
         getExtra()
