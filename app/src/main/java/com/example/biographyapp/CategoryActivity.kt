@@ -41,8 +41,26 @@ class CategoryActivity : AppCompatActivity() {
                     var intent = Intent(applicationContext, TechActivity::class.java)
                     startActivity(intent)
                 }
-
-                //Incomplete switch statement, Create other activities and complete switch statement
+                4 ->{
+                    var intent = Intent(applicationContext, VisionariesActivity::class.java)
+                    startActivity(intent)
+                }
+                5 ->{
+                    var intent = Intent(applicationContext, EntertainmentActivity::class.java)
+                    startActivity(intent)
+                }
+                6 ->{
+                    var intent = Intent(applicationContext, InventorActivity::class.java)
+                    startActivity(intent)
+                }
+                7 ->{
+                    var intent = Intent(applicationContext, LeadershipActivity::class.java)
+                    startActivity(intent)
+                }
+                8 ->{
+                    var intent = Intent(applicationContext, WomenLeaderActivity::class.java)
+                    startActivity(intent)
+                }
 
             }
         }
