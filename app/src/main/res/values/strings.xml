@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">Biography App</string>
-    <string name="category">Category</string>
+    <string name="category">Categories</string>
+    <string name="business">Business</string>
+    <string name="sport">Sport</string>
+    <string name="politics">Politics</string>
+    <string name="tech">Tech</string>
+    <string name="visionaries">Visionaries</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="inventors">Inventors</string>
+    <string name="leadership">Leadership</string>
+    <string name="women_leaders">Women leaders</string>
+    <string name="engineering">Engineering</string>
 </resources>

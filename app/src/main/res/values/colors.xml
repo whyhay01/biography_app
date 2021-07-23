@@ -10,4 +10,7 @@
     <color name="display_color">#596ACA</color>
     <color name="text_color">#ffffff</color>
     <color name="background_color">#FAB80E</color>
+    <color name="blue_background">#596ACA</color>
+    <color name="orange_text_color">#B12F05</color>
+    <color name="ash_text_color">#373434</color>
 </resources>

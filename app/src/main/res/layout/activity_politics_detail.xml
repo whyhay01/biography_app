@@ -2,7 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/display_color"
+    android:background="@color/black"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PoliticsDetailActivity">
@@ -26,7 +26,7 @@
         android:layout_marginTop="8dp"
         android:text="Nicky Oppenheimer"
         android:fontFamily="@font/kavoon"
-        android:textColor="@color/text_color"
+        android:textColor="@color/background_color"
         android:textSize="@dimen/text_heading"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0"
@@ -41,7 +41,7 @@
         android:text="Biography"
         android:layout_marginStart="@dimen/display_margin"
         android:layout_marginEnd="@dimen/display_margin"
-        android:textColor="@color/text_color"
+        android:textColor="@color/background_color"
         android:textSize="@dimen/text_heading"
         android:fontFamily="@font/kavoon"
         app:layout_constraintEnd_toEndOf="@+id/politics_display_name"
@@ -71,7 +71,8 @@
                 android:layout_height="wrap_content"
                 android:text="this is where the biography of every person will display"
                 android:textSize="@dimen/text_size_body"
-                android:textColor="@color/text_color"/>
+                android:justificationMode="inter_word"
+                android:textColor="@color/background_color"/>
 
         </LinearLayout>
 

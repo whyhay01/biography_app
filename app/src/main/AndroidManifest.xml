@@ -10,19 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BiographyApp">
         <activity android:name=".WomenLeaderActivity"></activity>
-        <activity android:name=".LeadershipActivity" />
-        <activity android:name=".InventorActivity" />
-        <activity android:name=".EntertainmentActivity" />
-        <activity android:name=".VisionariesActivity" />
+        <activity android:name=".LeadershipActivity" android:label="@string/leadership"/>
+        <activity android:name=".InventorActivity" android:label="@string/inventors" />
+        <activity android:name=".EntertainmentActivity" android:label="@string/entertainment" />
+        <activity android:name=".VisionariesActivity" android:label="@string/visionaries" />
         <activity android:name=".TechDetailActivity" />
-        <activity android:name=".PoliticsDetailActivity" />
-        <activity android:name=".SportDetailActivity" />
+        <activity android:name=".PoliticsDetailActivity"/>
+        <activity android:name=".SportDetailActivity"/>
         <activity android:name=".BusinessDetailActivity" />
-        <activity android:name=".TechActivity" />
-        <activity android:name=".PoliticsActivity" />
-        <activity android:name=".SportActivity" />
-        <activity android:name=".BusinessActivity" />
-        <activity android:name=".CategoryActivity">
+        <activity android:name=".TechActivity" android:label="@string/tech" />
+        <activity android:name=".PoliticsActivity" android:label="@string/politics" />
+        <activity android:name=".SportActivity" android:label="@string/sport" />
+        <activity android:name=".BusinessActivity" android:label="@string/business" />
+        <activity android:name=".CategoryActivity"
+            android:label="@string/category">
         </activity>
         <activity android:name=".MainActivity"
             android:theme="@style/Theme.Transparent">

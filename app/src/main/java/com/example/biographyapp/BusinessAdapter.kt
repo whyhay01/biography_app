@@ -15,7 +15,7 @@ class BusinessAdapter(context: Context,businessCategory:List<BusinessModel>)
 //    lateinit var view
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
          var view  = convertView
-        var businessItem = getItem(position)
+        val businessItem = getItem(position)
         if (view == null){
             view = LayoutInflater.from(parent.context)
                 .inflate(R.layout.business_display,parent,false)
@@ -28,6 +28,7 @@ class BusinessAdapter(context: Context,businessCategory:List<BusinessModel>)
         businessItem?.image?.let {
             profilePicture?.setImageResource(businessItem.image)
         }
+
 
         name?.text = businessItem?.name
 
