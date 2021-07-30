@@ -31,7 +31,7 @@ class BusinessDetailActivity : AppCompatActivity() {
 
         binding?.bizDisplayImage?.setImageResource(profilePicture)
         binding?.bizDisplayBio?.text = description
-        binding?.bizDisplayName?.text = name
+//        binding?.bizDisplayName?.text = name
 
         title = name
 
