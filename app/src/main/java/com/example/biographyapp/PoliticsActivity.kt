@@ -6,6 +6,8 @@ import com.example.biographyapp.databinding.ActivityPoliticsBinding
 
 class PoliticsActivity : AppCompatActivity() {
 
+    val displayTitle = "Politics"
+
     var binding: ActivityPoliticsBinding? = null
     lateinit var politicsAdapter: PoliticsAdapter
 
@@ -19,6 +21,8 @@ class PoliticsActivity : AppCompatActivity() {
         politicsAdapter = PoliticsAdapter(this,PoliticsData.politicsItems)
 
         binding?.listView?.adapter = politicsAdapter
+
+        title = displayTitle
     }
 
     override fun onDestroy() {

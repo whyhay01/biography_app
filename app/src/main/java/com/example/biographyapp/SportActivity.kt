@@ -6,6 +6,8 @@ import com.example.biographyapp.databinding.ActivitySportBinding
 
 class SportActivity : AppCompatActivity() {
 
+    val displayTitle = "Sport"
+
     var binding: ActivitySportBinding? = null
     var sportAdapter : SportAdapter? = null
 
@@ -20,6 +22,8 @@ class SportActivity : AppCompatActivity() {
         sportAdapter = SportAdapter(this,SportData.SportItems)
 
         binding?.listView?.adapter =sportAdapter
+
+        title = displayTitle
     }
 
     override fun onDestroy() {

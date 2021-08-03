@@ -23,7 +23,7 @@
             <ImageView
                 android:id="@+id/biz_image"
                 android:layout_width="95dp"
-                android:layout_height="95dp"
+                android:layout_height="match_parent"
                 android:src="@drawable/adenuga"
                 android:scaleType="centerCrop"/>
 

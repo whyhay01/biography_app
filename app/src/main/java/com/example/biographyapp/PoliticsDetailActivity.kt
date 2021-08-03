@@ -25,7 +25,7 @@ class PoliticsDetailActivity : AppCompatActivity() {
         detail = intent.getStringExtra(BusinessDetailActivity.DETAIL_EXTRA)
         image = intent.getIntExtra(BusinessDetailActivity.IMAGE_EXTRA, 0)
 
-        binding?.politicsDisplayName?.text = name
+//        binding?.politicsDisplayName?.text = name
         binding?.politicsDisplayBio?.text = detail
         binding?.politicsDisplayImage?.setImageResource(image)
 

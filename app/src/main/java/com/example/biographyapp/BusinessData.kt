@@ -40,16 +40,8 @@ object BusinessData {
                     "He has built a fortune in mobile telecom and oil production. He launched Globacom mobile phone network in 2006, which has reached about 30 million subscribers, and advancing its operation in West Africa, i.e the Republic of Benin, and recently, he acquired licenses to start business in Ghana and Ivory Coast.\n\n" +
                     "As at May 2021, Michael Adeniyi Adenuga’s net worth is estimated to be around $6.2 billion, thereby making him the third richest man in Africa."),
 
-            BusinessModel(name = "Nassef Sawiris",
-            R.drawable.sawiris, biography = "NASSEF SAWIRIS (born January 19, 1961)\n" +
-                    "Nassef Onsi Sawiris, the youngest of the three sons of Onsi Sawiris, is an Egyptian billionaire businessman. He had is secondary education at the Deutsche Evangelische Oberschule Kairo. He then proceeded to University of Chicago where he received a bachelor's degree in economics in 1982. Sawiris is a member of Egypt's Coptic Christian minority.\n" +
-                    "He made his fortune is from his investments and inheritance.\n\n" +
-                    "Sawiris joined the Orascom group in 1982 and oversaw the construction activities of Orascom Construction following the transfer of management control from his father Onsi Sawiris in 1995. He became CEO of Orascom Construction Industries following the company's incorporation in 1998. He served on the board of Besix, following OCI SAE acquiring a 50% stake in the company in 2004, and a member of the enumeration and nominations committee until 2017.\n\n" +
-                    "He was on the board of directors of the Cairo and Alexandria Stock Exchanges from 2004 to 2007, and was also a board director at the Dubai International Financial Exchange DIFX from July 2008 to June 2010.\n\n" +
-                    "In January 2013, he became CEO OCI NV when they acquired the former parent company OCI SAE. In 2015, he was elected a board member of LafargeHolcim, having served on Lafarge SA's board since 2008.\n\n" +
-                    "In October 2015, it was reported that Sawiris had acquired a stake in Adidas AG via his investment company NNS Holding Sàrl Luxembourg. In 2016 he was appointed supervisory director of Adidas AG, Herzogenaurach, Germany.\n\n" +
-                    "It was announced in July 2018 that Sawiris would replace Tony Xia as chairman of Aston Villa F.C. following the purchase of a 55% controlling stake by NSWE, a company jointly owned and controlled by Sawiris' group NNS and American billionaire Wes Edens. In August 2019, after Aston Villa were promoted to the Premier League, Tony Xia's remaining shares were bought out by NSWE, assuming full control over the club in the process.\n\n" +
-                    "In October 2020, Sawiris founded Avanti Acquisition Corp, a Special-purpose acquisition company."),
+            BusinessModel(name = "Jim Ovia",
+            R.drawable.jim, biography = "Nasef Sawiri has been replaced by Jim Ovia And Jim biography is not ready yet" ),
 
             BusinessModel(name = "Johann Rupert",
             R.drawable.johann, biography = "JOHANN RUPERT(Born 1st June 1950)\n" +
@@ -57,13 +49,8 @@ object BusinessData {
                     "He founded Compagnie Financiere Richemont, otherwise known as Richemont; a luxury goods holding company, in1988. He is the Chairman of Remgro Limited which is an investment holding company based in Stellenbosch. \n\n" +
                     "Together with his family, he was estimated to be worth $5.9 billion as of April 2019, and was the second world wealthiest person in South Africa on the Forbes list of World’s Billionaires of 2019, with his fortune reported as having retrograded from US$7.3 billion. Rupert and family were ranked as the second richest in South Africa on the 2020 Forbes list, with a fortune reported as US$5.4 billion."),
 
-            BusinessModel(name = "Issad Rebrad",
-            R.drawable.rebrab, biography = "ISSAD REBRAB (born May 27, 1944)\n" +
-                    "Issad Rebrab is an Algerian billionaire businessman, born in Tagumount-Azzouz village, Tizi Ouzou. \n\n" +
-                    "His industrial career started in 1971, when one of his clients proposed he take shares in a metallurgical construction company. He took 20% of the shares in Sotecom. After that, he created other companies in the steel industry: Profilor in 1975 and Metal Sider in 1988.\n\n" +
-                    "In 1995, his main installations were destroyed in a terrorist attack. After he recognized the risks of staying, Rebrab decided to leave Algeria. He came back in 1998 with Cevital, the biggest group in agricultural business, which later became the largest private Algerian company. Cevital owns one of the largest sugar refineries in the world, with the capacity to produce 2 million tons a year.\n\n" +
-                    "In 2016, Rebrab acquired El Khabar media group, for $45 million. This was his second investment into media, as he already owns the French-Algerian daily paper Liberte.\n\n" +
-                    "On April 22, 2019, Rebrab was incarcerated at the prison of El Harrach on the public prosecutor's orders, after his arrest as part of a corruption probe. He was released on January 1, 2020, after having been sentenced to six months for tax, banking and customs offenses, and having been in custody for longer than his eventual sentence."),
+            BusinessModel(name = "Sir Foluso Williams",
+            R.drawable.foluso, biography = "ISSAD REBRAB is replaced by Foluso williams\n"),
 
             BusinessModel(name = "Mohamed Mansour",
             R.drawable.monsour,
@@ -74,14 +61,9 @@ object BusinessData {
                     "Mansour has led the group since his father died in 1976.[4] Since then, he has overseen all the major corporate developments, including setting up the company's private investment subsidiary Man Capital in London.\n\n" +
                     "In January 2006 Mansour resigned his business responsibilities to serve as minister of transport. He resigned in October 2009 after a deadly train crash. He is married with five children. As May 2021, Forbes estimated his net worth to be at $2.5 billion.\n\n"),
 
-            BusinessModel(name = "Naguib Sawiris",
-            R.drawable.naguib,
-                    biography = "NAGUIB SAWIRIS (born 15 June1954)\n" +
-                            "Naguib Onsi Sawiris s an Egyptian billionaire businessman. Sawiris is chairman of Weather Investments’ parent company, and chairman and CEO of Orascom Telecom Holding. He is the last of the three sons of Onsi Sawiris, the other two being Nassef Sawiris and Samih Sawiris, who are also billionaires. Naguib is married with four children and lives in Cairo, Egypt. \n\n" +
-                            "Since joining Orascom, the family business in 1979, Sawiris has contributed to the growth and diversification of the company into what it is today one of Egypt's largest and most diversified conglomerates and the country's largest private sector employer. Sawiris built the railway, information technology, and telecommunications sectors of Orascom. Management decided to split Orascom into separate operating companies in the late 90s: Orascom Telecom Holding (OTH), Orascom Construction Industries (OCI), Orascom Hotels & Development and Orascom Technology Systems (OTS).\n\n" +
-                            "In August 2012, Sawiris was appointed chairman of La Mancha Holding.\n" +
-                            "In September 2015, he offered to buy an island off Greece or Italy to help hundreds of thousands of refugees fleeing the Syrian conflict. However, he conceded the plan could face challenges in terms of jurisdictions and customs regulation.\n" +
-                            "As of 2021 Sawiris was listed in Forbes magazine as the 8th richest person in Africa, with a personal wealth of $3.2 billion."),
+            BusinessModel(name = "Tony Elumelu",
+            R.drawable.tony,
+                    biography = "NAGUIB SAWIRIS is replaced Tony Elumelu \n"),
 
             BusinessModel(name = "Patrice Motsepe",
             R.drawable.motsepe,
@@ -99,20 +81,8 @@ object BusinessData {
                     "On November 2020, he announced that he will be candidate to become CAF's President. Quickly accused of being actively supported by FIFA - despite its duty of reserve and neutrality - and its President Gianni Infantino, who would seek to obtain the votes of Africa for a future re-election, Patrice Motsepe was elected on 12 March 2021, after that all four other candidates had withdrawn their candidacies. He is currently the interim chairman of the Black Business Council and is a founding member and former president of one of South Africa's most influential business advocacy and lobby group Business Unity SA (BUSA).\n\n" +
                     "Motsepe won South Africa's Best Entrepreneur Award in 2002. In 2004, he was voted 39th among the South African Broadcasting Corporation's Great South Africans. In 2008, he was reported as the 503rd richest person in the world, according to the Forbes 2019 list of The World's Billionaires, then ranked as the 962nd wealthiest person in the world, and the third-wealthiest South African for 2019. In 2020, Motsepe was ranked as the 1,307th wealthiest person in the world by Forbes, with a reported fortune of US$2.1 billion. \n"),
 
-            BusinessModel(name = "Isabel dos Santos",
-            R.drawable.isabel,
-            biography = "ISABEL DOS SANTOS (born 20th April 1973)\n" +
-                    "Isabel dos Santos, an Angolan businesswoman, was born in Baku, Azerbaijan SSR, and is the eldest daughter of Angola's former President José Eduardo dos Santos (ruled 1979 - 2017) and his first wife, the Russian-born Tatiana Kukanova, whom he met while studying in the then Soviet republic of Azerbaijan. Her father's parents came from São Tomé and Príncipe. She attended an all-girls boarding school in Kent, Cobham Hall School, and St Paul's Girls' School in London. She studied electrical engineering at King's College in London. There she met her husband from Zaire (now Democratic Republic of the Congo), Sindika Dokolo, a son of a millionaire from Kinshasa and his Danish wife.\n\n" +
-                    "Starting in 1997, Isabel dos Santos entered the business world, creating companies and holdings in Angola and mostly abroad, making substantial investments in high-profile enterprises, especially in Portugal.\n\n" +
-                    "In the early 90s Isabel dos Santos started working as a project manager engineer for Urbana 2000, a subsidiary of Jembas Group, that had won a contract to clean and disinfect the city. Following that, she set up a trucking business. The widespread use of walkie-talkie technology paved the way for a subsequent foray into telecoms. In 1997, she started her first business, opening the Miami Beach Club, one of the first night clubs and beach restaurants on Luanda Island.\n\n" +
-                    "In June 2016, she was appointed by her father as chair of Sonangol, the Angolan state oil company. The controversial appointment in the wake of similar appointments of children of the president to key posts was short-lived, as João Lourenço, the new Angolan President, fired her just two months after being sworn into office.\n\n" +
-                    "On 30 December 2019, the Luanda Provincial Court ordered the preventive seizure of personal bank accounts of dos Santos, her husband, Sindika Dokolo, and Mário Filipe Moreira Leite da Silva. According to the Attorney General's office, the three businesspeople entered into deals with the Angolan state through the companies Sodiam, a public diamond sales company, and Sonangol, the state oil company. With these deals, the Angolan state suffered a loss of $1.14 billion. The court produced a document showing that the assets and many others owned by dos Santos had been acquired using funds from two state-owned companies. In the meantime, the Portuguese Attorney-General's Office has revealed that an investigation has been opened into a number of operations by Isabel dos Santos, following a charge laid by Ana Gomes, a Portuguese Member of the European Parliament. Following the seizure, she has assumed the UAE as her official country of residence.\n\n" +
-                    "After freezing Dos Santos assets in Angola and Portugal, Forbes removed her from the list of the richest people in Africa in 2021. Once considered Africa's richest woman according to Forbes magazine, with a net worth exceeding US$2 billion Forbes, she was dropped from the magazine's list in January 2021: they stated that it was not possible to calculate her wealth, given the freezing of her assets in Angola, Portugal and the Netherlands. Additionally, according to Forbes, she owes $340 million in debt to the Portuguese company PT Ventures.\n\n" +
-                    "In 2013 Forbes described how dos Santos acquired her wealth by taking stakes in companies doing business in Angola, suggesting that her wealth came almost entirely from her family's power and connections.\n\n" +
-                    "The Angolan Government has, since 2018, been trying to prosecute Isabel dos Santos for past corruption crimes that may have led to Angola's ongoing recession crisis. However, she remains in exile in Portugal. On 30 December 2019, the Luanda Provincial Court ordered the freezing of dos Santos's Angolan bank accounts and the seizure of her stake in local companies, including Unitel and Banco de Fomento Angola.\n\n" +
-                    "She is under investigation in Portugal and has since assumed the United Arab Emirates as her official country of residence. Two weeks later, the Angolan Government announced it was preparing the legal battle for the confiscation of dos Santos's assets in Portugal, a process that is already in operation in the form of letters rogatory sent to Portugal to stop the transfer of funds from Portuguese Commercial Bank to a Russian bank.\n")
+            BusinessModel(name = "Akinwumi Adesina",
+            R.drawable.akinwumi,
+            biography = "ISABEL DOS SANTOS is replaced by Akinwumi Adesina\n"))
 
-
-
-    )
 }

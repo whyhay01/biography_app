@@ -6,6 +6,8 @@ import com.example.biographyapp.databinding.ActivityTechBinding
 
 class TechActivity : AppCompatActivity() {
 
+    val displayTitle = "Tech"
+
     var binding : ActivityTechBinding? = null
     var techAdapter: TechAdapter? = null
 
@@ -18,6 +20,8 @@ class TechActivity : AppCompatActivity() {
         techAdapter = TechAdapter(this,TechData.techItems)
 
         binding?.listView?.adapter = techAdapter
+
+        title = displayTitle
     }
 
     override fun onDestroy() {

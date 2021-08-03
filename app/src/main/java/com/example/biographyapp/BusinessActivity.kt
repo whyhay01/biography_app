@@ -7,6 +7,8 @@ import com.example.biographyapp.databinding.ActivityCategoryBinding
 
 class BusinessActivity : AppCompatActivity() {
 
+    val DISPLAY_TITLE = "Business"
+
     var binding : ActivityBusinessBinding? = null
     var businessAdapter : BusinessAdapter? = null
 
@@ -18,6 +20,8 @@ class BusinessActivity : AppCompatActivity() {
 
         businessAdapter = BusinessAdapter(this,BusinessData.BusinessItem)
         binding?.bizListView?.adapter = businessAdapter
+
+        title = DISPLAY_TITLE
     }
 
     override fun onDestroy() {

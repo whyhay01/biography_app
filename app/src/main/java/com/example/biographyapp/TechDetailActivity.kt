@@ -28,7 +28,7 @@ class TechDetailActivity : AppCompatActivity() {
         profilePicture = intent.getIntExtra(BusinessDetailActivity.IMAGE_EXTRA, 0)
 
         //Setting up the Extra to display
-        binding?.techDisplayName?.text = name
+//        binding?.techDisplayName?.text = name
         binding?.techDisplayBio?.text = details
         binding?.techDisplayImage?.setImageResource(profilePicture)
         title = name

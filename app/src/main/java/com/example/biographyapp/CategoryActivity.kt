@@ -54,10 +54,6 @@ class CategoryActivity : AppCompatActivity() {
                     startActivity(intent)
                 }
                 7 ->{
-                    var intent = Intent(applicationContext, LeadershipActivity::class.java)
-                    startActivity(intent)
-                }
-                8 ->{
                     var intent = Intent(applicationContext, WomenLeaderActivity::class.java)
                     startActivity(intent)
                 }

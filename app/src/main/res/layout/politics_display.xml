@@ -22,7 +22,7 @@
         <ImageView
             android:id="@+id/politics_image"
             android:layout_width="@dimen/image_display"
-            android:layout_height="@dimen/image_display"
+            android:layout_height="match_parent"
             android:src="@drawable/sirleaf"
             android:scaleType="centerCrop"/>
 

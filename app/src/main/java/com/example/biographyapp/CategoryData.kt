@@ -16,10 +16,6 @@ object CategoryData {
 
             Category(name = "Inventor", details = "Displays list of top African inventors"),
 
-            Category(name = "Leadership", details = "Displays list of top leaders in Africa"),
-
-            Category(name = "Women Leaders", details = "Displays list of top people in Engineering"),
-
-            Category(name = "Engineering", details = "Displays list of top people in Engineering")
+            Category(name = "Women Leaders", details = "Displays list of top people in Engineering")
     )
 }

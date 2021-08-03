@@ -21,7 +21,7 @@
             <ImageView
                 android:id="@+id/sport_image"
                 android:layout_width="@dimen/image_display"
-                android:layout_height="@dimen/image_display"
+                android:layout_height="match_parent"
                 android:src="@drawable/messi"
                 android:scaleType="centerCrop"/>
 

@@ -26,7 +26,7 @@ class SportDetailActivity : AppCompatActivity() {
         detail =intent.getStringExtra(BusinessDetailActivity.DETAIL_EXTRA)
         image = intent.getIntExtra(BusinessDetailActivity.IMAGE_EXTRA, 0)
 
-        binding?.sportDisplayName?.text =name
+//        binding?.sportDisplayName?.text =name
         binding?.sportDisplayBio?.text =detail
         binding?.sportDisplayImage?.setImageResource(image)
 
